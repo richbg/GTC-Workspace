@@ -1,0 +1,20 @@
+Regardless from where you get the program, for the Time2 problem, use the one in the book (8.5) and modify it
+(leave everything the same except...) to have the new methods tick(), incrementMinute(), incrementHour().  
+Save it as Time2.java.  
+
+Use it to make your test program, say Time2Test.java, to test the new methods.  
+Zip those files together and submit.
+
+For Date, do the same.  Use the one given, modify it appropriately, make your test program, zip and submit.  
+
+
+You are correct.  
+As the exercise states, you will modify the existing Time2 class to contain 
+the methods tick(), incrementMinute() and incrementHour().  
+You can modify the test program listed in chapter 8 to test your new methods by making objects of 
+the Time2 class with appropriate time settings and calling tick().
+
+For the Date class modification download the version of the Date class posted 
+in Angel and add the nextDay() method to it.  
+Test the nextDay() method in a test program.
+

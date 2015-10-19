@@ -1,0 +1,33 @@
+
+Part two.
+
+Using the code examples provided during previous weeks, write a GUI program that will do the following:
+
+- GUI program contains 3 text fields, one button, and one text area. DONE
+
+- ask the user to provide employeeName, hoursWorked, payRate (3 text fields) DONE
+
+- when the button is clicked, the GUI program will display the correct salary information and the name of the employee in the text area of the GUI
+
+- create one Employee_your_last_name class object by calling its constructor and pass 'employeeName, hoursWorked, payRate' to the constructor
+- call getName and getSalary methods of Employee_your_last_name class to get the employee name and the correct salary and display the information on the screen
+- and the output information (employee name & salary) gets recorded (write to) in a text file.
+- name the text file 'output.txt'.
+
+
+class Employee_your_last_name specifications:
+- class attributes are employee_name, hours_Worked, pay_Rate, over_Time_Hours, salary
+- class constructor accepts employeeName, hoursWorked, payRate
+- class methods are getName and getSalary
+
+method getName requirement:
+- return employee name
+
+method getSalary calculation requirements:
+- accepts no parameter passing to it but returns the salary to the main program that calls it
+- salary is hours worked multiply by pay rate
+- if number of hours worked is more than 40, then the pay rate per hour after the 40th hour will be 1.5 the normal pay rate
+- if number of hours worked is more than 60, then the salary return should be -1 to indicate that 
+- the user entered an invalid number (this will prevent the program to print a check of 20 millions for one work week by error)
+
+* We are dealing with salary so use the data type that you think works best for this problem (decimal). Use DecimalFormat example in chapter 3 to format the salary to show 2 decimal place only (since we live in the US and use 2 decimal place for money format).
